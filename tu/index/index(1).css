@@ -58,13 +58,20 @@ body {
 	border: 1px solid orange;
 }
 .signup:hover {
-	color: white;
-	background-color: white;
+	background-color: black;
 }
 
-.signuph1 {
+.signup:hover {
+	color: white;
+}
+
+#signuph1 {
 	margin-left: 450px;
 	margin-top: -30px;
 	font-size: 15px;
 	position: absolute;
+}
+
+#signuph1 li a:hover {
+	color: white;
 }

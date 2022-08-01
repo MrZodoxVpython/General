@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+}
+
+.image {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-left: 450px;
+}
+
+.green {
+	color: green;
+	margin-left: 930px;
+	position: absolute;
+	margin-top: 70px;
+
+}
+
+.green ul li a{
+	text-decoration: none;
+	margin-left: 43px;
+	color: lightgreen;
+}
+
+.green ul li {
+	display: inline-block;
+}
+
+button {
+	position: absolute;
+	margin-top: 95px; 
+}
+
+.buton {
+	color: red;	
+	background: transparent;
+	border-radius: 2px;
+	height: 30px;
+	width: 1320px;
+	border-color: green;
+	margin-left: 24px;
+}
+
+.login {
+	color: lightgreen;
+}
+
+.register {
+	color: lightgreen;
+}
+
+.ahyer {
+	margin-left: 990px;
+}
+
+p {
+	color: green;
+	margin-top: 210px;
+	position: absolute;
+	margin-left: 20px;
+	text-decoration: underline;
+	text-decoration-color: white;
+	font-weight: bold;
+	
+}
+
+.marquee {
+	color: white;
+	background-color: darkgreen;
+	height: 30px;
+	margin-top: 263px;
+	display: flex; 
+	align-items: center;
+	width: 100%;
+}
