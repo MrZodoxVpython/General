@@ -1,0 +1,488 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+}
+
+.header {
+	background-color: green;
+	height: 35px;
+	margin-top: 110px;
+	
+}
+
+
+button .shop {
+	position: absolute;
+	margin-top: 100px;
+
+}
+/* pengaturan tinggi rendah navbar welcome dll*/
+div {
+	margin-top: -23px;
+	margin-left: 500px;
+	position: absolute;
+}
+/* color welcome dll */
+.na {
+	color: white;
+}
+
+.na:hover {
+	color: black;
+}
+/* color how to order dll*/
+a {
+	color: white;
+	text-decoration: none;
+}
+   
+/* button number 1 in div tags*/
+.welcome {
+	background: green;
+	border-bottom: none;
+	border-color: black;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 80px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+}
+.welcome:hover {
+
+	background: white;
+	border-color: red;
+}
+
+.books {
+	background: green;
+	border-color: black;
+	border-bottom: none;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 70px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+	margin-left: -4px;
+}
+.books:hover {
+	background: white;
+	border-color: red;
+}
+
+.music {
+	background: green;
+	border-color: black;
+	border-bottom: none;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 70px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+	margin-left: -4px;
+}
+.music:hover {
+	background: white;
+	border-color: red;
+}
+
+.video {
+	background: green;
+	border-color: black;
+	border-bottom: none;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 70px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+	margin-left: -4px;
+}
+.video:hover {
+	background: white;
+	border-color: red;
+}
+
+.toys {
+	background: green;
+	border-color: black;
+	border-bottom: none;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 120px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+	margin-left: -4px;
+}
+.toys:hover {
+	background: white;
+	border-color: red;
+}
+
+.electronic {
+	background: green;
+	border-color: black;
+	border-bottom: none;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 110px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+	margin-left: -4px;
+}
+.electronic:hover {
+	background: white;
+	border-color: red;
+}
+
+.card {
+	background: green;
+	border-color: black;
+	border-bottom: none;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 70px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+	margin-left: -4px;
+}
+.card:hover {
+	background: white;
+	border-color: red;
+}
+
+.actions {
+	background: green;
+	border-color: black;
+	border-bottom: none;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 70px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+	margin-left: -4px;
+}
+.actions:hover {
+	background: white;
+	border-color: red;
+}
+
+.shop {
+	background: green;
+	border-color: black;
+	border-bottom: none;
+	border-right: ;
+	border-left: ;
+	padding-bottom: 7px;
+	height: 29px;
+	width: 70px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-variant-position: 10px;
+	margin-left: -4px;
+}
+.shop:hover {
+	background: white;
+	border-color: red;
+}
+
+#div {
+	margin-left: 565px;
+}
+
+.main {
+	margin-left: 30px;
+	margin-top: 10px;
+	border: solid;
+	background: transparent;
+	border-top: none;
+	border-bottom: none;
+	border-left: 50%;
+	border-right: none;
+	border-color: white white;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 9px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.pinggirgambar {
+	position: absolute;
+	margin-left: 80px;
+	margin-top: -95px;
+	color: black;
+}
+
+.many {
+	color: gold;
+}
+
+#bintang, .satu, .ahay, .dua, .tiga, #inbok, #mill, #sign, #pqua {
+	color: blue;
+	text-decoration: underline;	
+}
+
+
+.you {
+	font-weight: bold;	
+	margin-left: 192px;
+	margin-top: -17px;
+}
+
+#binta {
+	color: gold;
+	text-decoration: none;
+}
+.big {
+	color: black;
+}
+
+.images {
+	height: 100px;
+}
+
+.main1 {
+	margin-left: -5px;
+	margin-top: 10px;
+	border: solid;
+	background: transparent;
+	border-top: none;
+	border-bottom: none;
+	border-left: 50%;
+	border-right: none;
+	border-color: white white;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 9px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.main2 {
+	margin-left: 1px;
+	margin-top: 10px;
+	border: solid;
+	background: transparent;
+	border-top: none;
+	border-bottom: none;
+	border-left: 50%;
+	border-right: none;
+	border-color: white white;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 9px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.main3 {
+	margin-left: 1px;
+	margin-top: 10px;
+	border: solid;
+	background: transparent;
+	border-top: none;
+	border-bottom: none;
+	border-left: 50%;
+	border-right: 50%;
+	border-color: white white;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 9px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.main4 {
+	margin-left: 1px;
+	margin-top: 10px;
+	border: solid;
+	background: transparent;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: 50%;
+	border-color: white white;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 9px;
+	color: white;
+	font-weight: bold;
+
+}
+
+
+
+.abc {
+	font-size: 9px;
+	padding: ;
+}
+
+.bikinibottom {
+	margin-left: 80px;
+	padding-top: 100px;
+	padding-left: 0px;
+	padding-right: 10px;
+	margin-top: 20px;
+	border-radius: 9px;
+	background-color: gold;
+
+}
+
+.anjim {
+	position: absolute;
+	color: white;
+	background-color: green;
+	width: 221px;
+	height: 17px;
+	margin-left: -32px;
+	margin-top: -100px;
+}
+
+.asu {
+	margin-left: -148px;
+}
+
+
+.searchnih {
+	position: absolute;
+	margin-top: -117px;
+	margin-left: 73px;
+	background: green;
+}
+
+.search0 {
+	margin-left: 9px;
+}
+
+textarea {
+	position: absolute;
+	margin-top: -75px;
+	margin-left: -100px;
+	size: 20px;
+}
+
+.hacktheworld {
+	color: green;
+	text-decoration: none;
+}
+.search a {
+	margin-left: -149px;
+}
+
+
+.bikinibottom2 {
+	position: absolute;
+	margin-left: 80px;
+	padding-top: 100px;
+	padding-left: 210px;
+	padding-right: 10px;
+	margin-top: 20px;
+	padding-bottom: 600px;
+	border-radius: 9px;
+	background-color: white;
+}
+
+.browse{
+	background-color: green;
+	margin-top: -100px;
+	width: 220px;
+	height: 18px;
+	margin-left: -210px;
+	position: absolute;
+	color: white;
+}
+
+ul li {
+	margin-left: -24px;
+
+}
+
+.divhello {
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 315px;
+}
+
+.phello {
+	color: gold;
+}
+
+#pqua {
+	color: blue;
+}
+
+#sign {
+	color: blue;
+	cursor: pointer;
+}
+
+#mill {
+	color: blue;
+	cursor: pointer;
+}
+#inbok {
+	color: blue;
+	cursor: pointer;
+}
+
+.ad {
+	margin-left: 20px;
+	color: black;
+}
+
+.brocadangan {
+	position: absolute;
+	margin-left: -165px;
+	color: black;
+	margin-top: -80px;
+
+}
+
+ul li a {
+	color: black;
+}
+
+.buk, .buk1, .buk2, .buk3, .buk4 {
+	display: flex;
+	font-size: 20px;
+	color: blue;
+	text-decoration: underline;
+	padding-bottom: 50px;
+}
+
+
+.sbha {
+	height: 130px;
+	margin-top: -250px;
+}
