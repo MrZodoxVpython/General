@@ -8,6 +8,8 @@ body {
 }
 
 .header {
+	position: relative;
+	z-index: 40;	
 	background-color: green;
 	height: 35px;
 	margin-top: 110px;
@@ -47,7 +49,7 @@ a {
 	border-color: black;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 80px;
 	border-radius: 10px;
@@ -66,7 +68,7 @@ a {
 	border-bottom: none;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 70px;
 	border-radius: 10px;
@@ -85,7 +87,7 @@ a {
 	border-bottom: none;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 70px;
 	border-radius: 10px;
@@ -104,7 +106,7 @@ a {
 	border-bottom: none;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 70px;
 	border-radius: 10px;
@@ -123,7 +125,7 @@ a {
 	border-bottom: none;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 120px;
 	border-radius: 10px;
@@ -142,7 +144,7 @@ a {
 	border-bottom: none;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 110px;
 	border-radius: 10px;
@@ -161,7 +163,7 @@ a {
 	border-bottom: none;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 70px;
 	border-radius: 10px;
@@ -180,7 +182,7 @@ a {
 	border-bottom: none;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 70px;
 	border-radius: 10px;
@@ -199,7 +201,7 @@ a {
 	border-bottom: none;
 	border-right: ;
 	border-left: ;
-	padding-bottom: 7px;
+	padding-bottom: 9px;
 	height: 29px;
 	width: 70px;
 	border-radius: 10px;
@@ -214,24 +216,6 @@ a {
 
 #div {
 	margin-left: 565px;
-}
-
-.main {
-	margin-left: 30px;
-	margin-top: 10px;
-	border: solid;
-	background: transparent;
-	border-top: none;
-	border-bottom: none;
-	border-left: 50%;
-	border-right: none;
-	border-color: white white;
-	padding-left: 30px;
-	padding-right: 30px;
-	font-size: 9px;
-	color: white;
-	font-weight: bold;
-
 }
 
 .pinggirgambar {
@@ -269,6 +253,28 @@ a {
 	height: 100px;
 }
 
+
+.main {
+	margin-left: 30px;
+	margin-top: 10px;
+	border: solid;
+	background: transparent;
+	border-top: none;
+	border-bottom: none;
+	border-left: 50%;
+	border-right: none;
+	border-color: white white;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 9px;
+	color: white;
+	font-weight: bold;
+
+}
+.main a:hover {
+	color: yellow;
+}
+
 .main1 {
 	margin-left: -5px;
 	margin-top: 10px;
@@ -285,6 +291,9 @@ a {
 	color: white;
 	font-weight: bold;
 
+}
+.main1 a:hover {
+	color: yellow;
 }
 
 .main2 {
@@ -304,6 +313,9 @@ a {
 	font-weight: bold;
 
 }
+.main2 a:hover {
+	color: yellow;
+}
 
 .main3 {
 	margin-left: 1px;
@@ -321,6 +333,9 @@ a {
 	color: white;
 	font-weight: bold;
 
+}
+.main3 a:hover {
+	color: yellow;
 }
 
 .main4 {
@@ -340,7 +355,9 @@ a {
 	font-weight: bold;
 
 }
-
+.main4 a:hover {
+	color: yellow;
+}
 
 
 .abc {

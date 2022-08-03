@@ -12,12 +12,30 @@ body {
 }
 
 #signinid {
-	font-size: 10px;
-
+	margin-left: 100px;
+	margin-top: 200px;
 }
 
 .signinclass {
 	border: 2px solid orange;
 	position: absolute;
 	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 30px;
+	border-radius: 5px;
+	z-index: 999;
+
+}
+
+button {
+	position: relative;
+	z-index: 35;
+	width: 200px;
+	height: 150px;
+	margin-left: 75px;
+	margin-top: 60px;
+	z-index: 0;
 }
