@@ -1,0 +1,15 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: grey;
+
+}
+
+.navbar-navigation {
+	background-color: black;
+	height: 20px;
+	
+}
