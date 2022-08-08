@@ -4,12 +4,13 @@
 }
 
 body {
-	color: grey;
+	background-color: grey;
 
 }
 
 .navbar-navigation {
+	position: absolute;
 	background-color: black;
-	height: 20px;
-	
+	height: 30px;
+
 }
