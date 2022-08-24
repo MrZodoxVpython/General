@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+.img1102 {
+	height: 200px;
+	width: 1000px;
+	margin-left: -250px;
+}
+
+.p {
+	position: absolute;
+	color: orange;
+	margin-top: -190px;
+	margin-left: -40px;
+
+}
+
+.navbar {
+	position: absolute;
+	display: inline-flex;
+	border: 3px solid black;
+	padding: 200px 300px;
+	margin-left: 350px;
+	margin-top: 100px;
+
+
+}
