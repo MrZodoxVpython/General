@@ -23,7 +23,7 @@ body {
 }
 .section div ul a {
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 33px;
 	margin-top: 10px;
 	color: white;
 	list-style: none;
@@ -43,7 +43,7 @@ body {
 }
 /* change your left navbar about*/
 .ok {
-	margin-left: 680px;
+	margin-left: 698px;
 }
 
 .section div ul li .signup {
@@ -85,9 +85,10 @@ body {
 .signin {
 	color: orange;	
 	display: inline-block;
-	padding: 2px 6px;
+	padding: 2px 5px;
 	background-color: transparent;
 	border: 1px solid orange;
+	margin-top: 20px;
 }
 .signin:hover {
 	background-color: black;
