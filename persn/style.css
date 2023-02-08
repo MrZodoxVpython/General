@@ -52,16 +52,6 @@ body {
 
 
 
-
-
-
-.signup {
-	color: orange;	
-	display: inline-block;
-	padding: 2px 6px;
-	background-color: transparent;
-	border: 1px solid orange;
-}
 .signup:hover {
 	background-color: black;
 }
