@@ -1,0 +1,19 @@
+body {
+ background-color: green;
+}
+.wrapper {
+  background-color: brown;
+  margin-top: 10px;
+}
+
+.wrapper h2 {
+  color: white;
+}
+
+.wrapper nav {
+  background-color: red;
+}
+
+.wrapper nav a {
+  color: white;
+}
