@@ -1,0 +1,28 @@
+header {
+  background-color: orange;
+}
+nav {
+  background-color: brown;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: -100;
+}
+ul {
+  margin-left: -38px;
+}
+h1 {
+  text-decoration: underline;
+}
+h3 {
+  margin-top: -22px;
+  
+}
+article {
+  margin-left: -40px;
+}
