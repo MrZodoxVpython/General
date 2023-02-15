@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio & Video</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!--<div class="audioSimple">
+      <audio src="music.mp3" controls></audio>
+    </div>-->
+   <div class="main">
+     <h1>welcome</h1>
+    <video class="mp" muted autoplay loop src="bg.mp4"></video>
+   </div>
+   
+    
+    <audio class="music" controls autoplay>
+      <source src="music.ogg" type="audio/ogg">
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    
+    
+    <video class="mp2"controls loop muted poster="poster.jpg">
+      <source src="video.webm" type="video/webm">
+      <source src="video.mp4" type="video/mp4">
+      browser tidak mendukung <code>audio</code>
+      <track src="subtitle.vtt" kind="captions" title="language" srclang="en">
+      <track src="subtitle2.vtt" kind="captions" title="language" srclang="id">
+    </video>
+    <figure>
+    <figcaption>Boys video</figcaption>
+    </figure>
+  </body>
+  </html>
