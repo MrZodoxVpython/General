@@ -34,3 +34,6 @@ img {
     border-radius: 40px;
   }
 }
+dl {
+  color: red;
+}
