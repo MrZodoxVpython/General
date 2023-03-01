@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+
+}
+body {
+	font-family: arial;
+	
+}
+.container {
+	text-align: center;
+	width: 600px;
+	margin: 50px auto;
+	box-sizing: border-box;
+	padding: 5px;
+	border: 5px solid black;
+}
+header {
+	background-color: sandybrown;
+	padding: 40px;
+}
+aside {
+	background-color: skyblue;
+}
+nav {
+	background-color: orangered;
+}
+main {
+	background-color: goldenrod;
+}
+footer {
+	background-color: grey;
+}
