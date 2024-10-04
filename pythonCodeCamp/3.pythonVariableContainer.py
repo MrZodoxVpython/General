@@ -1,5 +1,11 @@
 character_name = "Jhon"
-character_age = "35"
+character_age = "30"
+
+# Type Data:
+# 1.String ("this is tring")
+# 2.Integer (100(
+# 3.Float (100.52358)
+# 4.Boolean (true or false)
 
 print("There once was a named " + character_name + ", ")
 print("He was " + character_age + " years old ")
