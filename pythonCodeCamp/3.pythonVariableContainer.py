@@ -1,7 +1,7 @@
 character_name = "Jhon"
 character_age = "30"
 
-# Type Data there have 4 type::
+# Type Data there have 4 typpe::
 # 1.String ("this is tring")
 # 2.Integer (100(
 # 3.Float (100.52358)
