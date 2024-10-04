@@ -1,2 +1,2 @@
 # Announcement
-this repo will be use for all shitFile
+this repo will use for all shitFile
