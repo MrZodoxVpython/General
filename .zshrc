@@ -36,6 +36,7 @@ alias ilxde='sudo apt install lxde-core lxde kali-defaults kali-root-login deskt
 alias dwmprogram='sudo apt install ranger neofetch xinit htop ffmpeg scrot terminator vim feh xcompmgr xclip smbclient adb cmus neomutt abook build-essential libx11-xcb-dev libxcb-res0-dev libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev' #package for dwm shortcurt and for dwm requirements install
 
 ##################### random ##########################
+alias author='git commit --author="MrZodoxVpython <mrzodoxvpython@gmail.com>" -m'
 alias scanjaringan='nmcli dev wifi list'
 alias jaringan='nmcli dev wifi connect'
 alias udisplay='systemctl disable display-manager' #udisplay
