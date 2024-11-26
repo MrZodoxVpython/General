@@ -1,5 +1,3 @@
-import subprocess
-import threading
 import json
 
 data = {
@@ -14,24 +12,22 @@ data = {
 }
 
 def whoami():
-    print("Menu")
-    print("1. User Login")
-    print("2. Admin Login")
-    who = input("Masukkan pilihan: ")
-    if who == "1":
-        userPrompt()
-    if who == "2":
-        adminPrompt()
-    else:
-        print("Not Valid!")
-def userPrompt():
     while True:
-        if loginUser():
-            menu() 
-def adminPrompt():
-    while True:
-        if loginAdmin():
-            menuAdmin()
+        print("Menu")
+        print("1. User Login")
+        print("2. Admin Login")
+        who = input("Masukkan pilihan: ")
+        if who == "1":
+            while True:
+                if loginUser():
+                    menu()
+        if who == "2":
+            while True:
+                if loginAdmin():
+                    menuAdmin()
+        else:
+            print("=!= Masukkan (1/2) =!=")
+    
 def loginUser():
     print("\n=== Selamat datang di Quiz International ===") 
     print("=== Silahkan Login dulu ===")
@@ -58,36 +54,42 @@ def loginAdmin():
 def tambahPengguna():
         print("\n--- Tambah Pengguna Baru ---")
         print("1.Tambah pengguna user")
-        print("2.Tambah pengguna admin")
-        pilihan = int(input("Pilih nomor: "))
-        if pilihan == 1:
-           user = input("Masukkan user baru: ")
-        if user in data:
-            print("Username sudah ada. Silakan coba username lain.")
-        else:
-            password = input("Masukkan password: ")
-            data["user"][user] = password
-            print(f"Pengguna {user} berhasil ditambahkan!")
-            menuAdmin()
-        if pilihan == 2:
-            admin = input("Masukkan admin baru: ")
-        if admin in data:
-            print("Username sudah ada. Silakan coba username lain.")
-        else:
-            password = input("Masukkan password: ")
-            data["admin"][admin] = password
-            print(f"Pengguna {admin} berhasil ditambahkan!")
-            menuAdmin()
+        print("2.Tambah pengguna admin")    
+        try:
+            pilihanPengguna = int(input("Pilih nomor: ")) 
+            if pilihanPengguna == 1:
+                user = input("Masukkan user baru: ")
+                if user in data:
+                    print("Username sudah ada. Silakan coba username lain.")
+                else:
+                    password = input("Masukkan password: ")
+                    data["user"][user] = password
+                    print(f"Pengguna {user} berhasil ditambahkan!")
+                    menuAdmin()
+            if pilihanPengguna == 2:
+                admin = input("Masukkan admin baru: ")
+                if admin in data:
+                   print("Username sudah ada. Silakan coba username lain.")
+                else:
+                    password = input("Masukkan password: ")
+                    data["admin"][admin] = password
+                    print(f"Pengguna {admin} berhasil ditambahkan!")
+                    menuAdmin()
+        except ValueError:
+            print("\nHanya boleh berupa angka 1/2")
+            tambahPengguna()
             
 def menuAdmin():
     while True:
-        print("\n--- Menu After Login ---")
-        print("1. Lihat Credential")
-        print("2. Kembali ke Menu Login")
+        print("\n=== Admin Menu ===")
+        print("1. Create New User")
+        print("2. Read Credential")
         print("3. Masuk Ke Menu Quizz")
-        print("4. Tambah New User")
+        print("4. Kembali ke menu login")
         pilihan = input("Masukkan menu: ")
         if pilihan == "1":
+            tambahPengguna()
+        elif pilihan == "2":
             print("\nUser credential:")
             user_data = data["user"].items()
             for username, password in user_data:
@@ -97,13 +99,12 @@ def menuAdmin():
             admin_data = data["admin"].items()
             for username, password in admin_data:
                 print(f"Username: {username}, Password: {password}")
-        elif pilihan == "2":
+        
             print("Kembali ke menu utama...")
             break
         elif pilihan == "3":
             menu()
         elif pilihan == "4":
-            tambahPengguna()
             break
         else:
             print("Pilihan gk valid. Silakan coba lagi.")
