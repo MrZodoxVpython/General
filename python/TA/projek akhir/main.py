@@ -2,14 +2,17 @@ import subprocess
 import threading
 import json
 
-userData = { 
-    "user1": "password1",  
-    "user2": "password2"
+data = {
+    "user": {
+        "user1": "password1",
+        "user2": "password2"
+    },
+    "admin": {
+        "admin1": "password1",
+        "admin2": "password2"
+    }
 }
-adminData = {
-    "admin1": "password1",
-    "admin2": "password2"
-}
+
 def whoami():
     print("Menu")
     print("1. User Login")
@@ -34,7 +37,7 @@ def loginUser():
     print("=== Silahkan Login dulu ===")
     username = input("Username: ")
     password = input("Password: ")
-    if username in userData and userData[username] == password:
+    if username in data["user"] and data["user"][username] == password:
         print(f"Login berhasil! Selamat datang, {username}")
         return True   
     else:
@@ -45,7 +48,7 @@ def loginAdmin():
     print("=== Admin Login Form! ===")
     username = input("Username: ")
     password = input("Password: ")
-    if username in adminData and adminData[username] == password:
+    if username in data["admin"] and data["admin"][username] == password:
         print(f"Login berhasil! Welcome, {username}!")
         return True   
     else:
@@ -53,35 +56,53 @@ def loginAdmin():
         return False
 
 def tambahPengguna():
-    print("\n--- Tambah Pengguna Baru ---")
-    username = input("Masukkan username baru: ")
-
-    if username in userData:
-        print("Username sudah ada. Silakan coba username lain.")
-    else:
-        password = input("Masukkan password: ")
-        userData[username] = password
-        print(f"Pengguna {username} berhasil ditambahkan!")
-
+        print("\n--- Tambah Pengguna Baru ---")
+        print("1.Tambah pengguna user")
+        print("2.Tambah pengguna admin")
+        pilihan = int(input("Pilih nomor: "))
+        if pilihan == 1:
+           user = input("Masukkan user baru: ")
+        if user in data:
+            print("Username sudah ada. Silakan coba username lain.")
+        else:
+            password = input("Masukkan password: ")
+            data["user"][user] = password
+            print(f"Pengguna {user} berhasil ditambahkan!")
+            menuAdmin()
+        if pilihan == 2:
+            admin = input("Masukkan admin baru: ")
+        if admin in data:
+            print("Username sudah ada. Silakan coba username lain.")
+        else:
+            password = input("Masukkan password: ")
+            data["admin"][admin] = password
+            print(f"Pengguna {admin} berhasil ditambahkan!")
+            menuAdmin()
+            
 def menuAdmin():
     while True:
         print("\n--- Menu After Login ---")
-        print("1. Lihat Profil")
-        print("2. Pengaturan Akun")
-        print("3. Kembali ke Menu Login")
-        print("4. Masuk Ke Menu Quizz")
-        print("5. Tambah New User")
+        print("1. Lihat Credential")
+        print("2. Kembali ke Menu Login")
+        print("3. Masuk Ke Menu Quizz")
+        print("4. Tambah New User")
         pilihan = input("Masukkan menu: ")
         if pilihan == "1":
-            print("Menampilkan profil pengguna...")
+            print("\nUser credential:")
+            user_data = data["user"].items()
+            for username, password in user_data:
+                print(f"Username: {username}, Password: {password}")
+         
+            print("\nAdmin credential:")
+            admin_data = data["admin"].items()
+            for username, password in admin_data:
+                print(f"Username: {username}, Password: {password}")
         elif pilihan == "2":
-            print("Mengakses pengaturan akun...")
-        elif pilihan == "3":
             print("Kembali ke menu utama...")
             break
-        elif pilihan == "4":
+        elif pilihan == "3":
             menu()
-        elif pilihan == "5":
+        elif pilihan == "4":
             tambahPengguna()
             break
         else:
