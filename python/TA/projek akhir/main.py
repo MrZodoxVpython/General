@@ -106,7 +106,7 @@ def quiz(subject, data):
 
 def pengaturanQuiz():
     print("1. Lihat daftar quiz")
-    print("2. Daftar quiz")
+    print("2. Tambah daftar quiz")
     print("3. Update quiz")
     print("4. Hapus quiz")
     pQ = input("Masukkan pilihan:") 
@@ -121,7 +121,16 @@ def pengaturanQuiz():
                 print(f"Jawaban: {item['answer']}")
                 print("-" * 20)  
                 print("=" * 50)
-  
+    if pQ == "2":
+        data = load_questions()
+        print(data)
+        print(data)
+        print(data)
+        print(data)
+        print(data)
+        print(data)
+        print(data)
+
 def menuAdmin():
     while True:
         print("\n=== Admin Menu ===")
@@ -188,5 +197,4 @@ def tambahPengguna():
         except ValueError:
             print("\nHanya boleh berupa angka 1/2")
             tambahPengguna()
-
-pengaturanQuiz()
+loginPrompt()
