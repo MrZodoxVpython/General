@@ -1,0 +1,27 @@
+1.Menu Dashboard--> 3.Login -> 3.1Login User --> 5.Menu Quiz User
+                |                    | 
+                v                    v
+            2.SignUp          3.2Login Admin
+                |                    |
+                v                    v
+          back to Login        4.Menu Admin
+                                     v
+                                 Hapus akun -> hapus data
+                                     A
+      Update data <- Perbarui akun <CRUD> lihat akun -> Menampilkan akun credential user/admin
+                                     v
+                                 Buat akun
+                                     v
+                                1. add User
+                                2. add Admin 
+Rancangan Fitur:
+1. Menu Dashboard
+  - Buat dashboard seakan semi2 Login Website, ada Login dan SignUp.
+2. SignUp 
+  - Pendaftaran ini buat kondisi pengecekan, username udah ada didatabase ato belum.
+3. Login 
+  - Disini kita buat fitur semi2 domain structure, yang ada admin login didalam form login user namun tersembunyi.
+4. Menu Admin
+  - Penambahan CRUD untuk akun dan quiz, sebagai hak administrator.
+5. Menu Quiz User
+  - Buat menu pilihan2 quiz nya.
